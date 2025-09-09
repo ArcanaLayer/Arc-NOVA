@@ -3,6 +3,6 @@
 
 -Kivy
 
--Nova.main
+-nova.main
 
 -nova_engine.py
