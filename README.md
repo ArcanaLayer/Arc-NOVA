@@ -1,8 +1,3 @@
-# Built With
--Python 3.11.3
+# Arc-NOVA
 
--Kivy
-
--nova.main
-
--nova_engine.py
+A user interface engine for interpreting and displaying content from NOVA and GSS files.
