@@ -81,26 +81,26 @@ A code editor-like environment, including:
 ## Word Processor
 Similar to Text Editor but for writing. Adds spellcheck, formatting tools, and replaces line numbers with text formatting options.
 
-#### GSS Emulator
+## GSS Emulator
 Used for theme previewing under different GSS styles for testing. Not intended for creating inconsistent themes.
 
-#### Markdown
+## Markdown
 Renders `.md` files into styled, readable UI views.
 
-#### Tiles
+## Tiles
 Displays a grid of card/poster widgets. Can include filters for search/sorting.
 
-#### Notification (Toast)
+## Notification (Toast)
 Temporary alerts. Types:
 
 - Info
 - Warning
 - Error
 
-#### Gallery
+## Gallery
 Displays many images with optional titles and subtitles.
 
-#### Menu Bar
+## Menu Bar
 Top navigation container, includes:
 
 - Icons and buttons
@@ -109,7 +109,7 @@ Top navigation container, includes:
 
 Note: One menu bar per application.
 
-#### Image Editor
+## Image Editor
 Basic image editing with:
 
 - Canvas
@@ -117,7 +117,7 @@ Basic image editing with:
 - Color picker
 - Layer manager
 
-#### Node Graph
+## Node Graph
 Visualizes relationships or ideas. Includes:
 
 - Grid widget
@@ -126,17 +126,17 @@ Visualizes relationships or ideas. Includes:
 
 Uses Obsidian’s open file format for node data.
 
-#### Card Section
+## Card Section
 Stylized 3-card layout on a unique background. Often used in web apps.
 
-#### Hero Section
+## Hero Section
 A promotional UI block, usually for web. Includes:
 
 - Header/sub-header (max 256 chars)
 - Call-to-action button
 - Optional image/icon and secondary action
 
-#### Article
+## Article
 For long-form content. Contains:
 
 - Header widget
@@ -145,13 +145,13 @@ For long-form content. Contains:
 
 Could later evolve into a Book Element with chapters.
 
-#### Graph
+## Graph
 Provides data visualizations:
 
 - Types: line, bar, pie, scatter, candle
 - Components: canvas, legend, header, checkboxes, hover bubbles
 
-#### Documentation
+## Documentation
 Like Article, but adds:
 
 - Hyperlinks
@@ -164,7 +164,7 @@ Like Article, but adds:
 
 -Kivy
 
-#### Custom
+## Custom
 User-defined element. Requires:
 
 - Widget declarations
