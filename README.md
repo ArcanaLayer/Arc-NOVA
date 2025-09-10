@@ -24,7 +24,7 @@ M3L and GSS support different modes to adjust the UI for various input methods o
 ## Elements
 In NOVA, an Element defines a UI structure made of multiple widgets, designed to achieve a specific function. Below are the core supported elements in the M3L/GSS ecosystem:
 
-#### Video Element
+## Video Element
 Embeds video into the UI, usually including:
 
 - Reactions
@@ -39,20 +39,20 @@ Embeds video into the UI, usually including:
 
 Missing fields in M3L should be gracefully handled by GSS.
 
-#### Video Catalog
+## Video Catalog
 Lets users browse and explore multiple videos, similar to an item selector without checkout.
 
-#### Map
+## Map
 Displays a 2D map or annotated image with interactive landmarks. Features:
 
 - Custom markers
 - Reactions/links per marker
 - Suitable for static point-of-interest maps
 
-#### Background Audio
+## Background Audio
 Plays ambient audio without direct user control except mute (via settings). Controlled via GSS. Automatically mutes when other media plays, though this can be customized.
 
-#### Spreadsheet
+## Spreadsheet
 Manages structured tabular data with:
 
 - Table widgets
@@ -61,7 +61,7 @@ Manages structured tabular data with:
 - Graph widget
 - Special text areas
 
-#### Social Media
+## Social Media
 Replicates a feed layout, containing:
 
 - Messaging widget
@@ -69,7 +69,7 @@ Replicates a feed layout, containing:
 - Rating widget
 - Mute widget
 
-#### Text Editor
+## Text Editor
 A code editor-like environment, including:
 
 - Line numbers
@@ -78,7 +78,7 @@ A code editor-like environment, including:
 - Status bar
 - Search widget
 
-#### Word Processor
+## Word Processor
 Similar to Text Editor but for writing. Adds spellcheck, formatting tools, and replaces line numbers with text formatting options.
 
 #### GSS Emulator
