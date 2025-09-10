@@ -6,12 +6,6 @@ A user interface engine for interpreting and displaying content from NOVA and GS
 
 This protocol is still in active development and may change at any time. Do not use it for production or real-world applications until an official release is published. An official release will be marked by a version ending in .01 or higher. Version numbers are determined by the date on which the version was finalized. As of this writing, the current version is 2025.05.10.00, which represents a pre-release finalized on August 10, 2025. Please note that this README is not yet complete—more widgets and content will be added as updates and modifications continue.
 
-# Built With
-
--Python 3.11.3
-
--Kivy
-
 ## Overview
 The NOVA project acts as a renderer for M3L (Multi-Media Markup Language) and GSS (Global Style Sheets), built to provide a consistent UI experience across multiple applications. It defines the UI layout using M3L and applies styling through a GSS file. This engine is also integrated into ArcanaLayer, a decentralized, cloud-based blockchain platform, where it functions as the UI layer.
 
@@ -163,6 +157,12 @@ Like Article, but adds:
 - Hyperlinks
 - Table of contents
 - Embedded media
+
+# Built With
+
+-Python 3.11.3
+
+-Kivy
 
 #### Custom
 User-defined element. Requires:
