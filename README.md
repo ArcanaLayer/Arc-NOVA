@@ -164,6 +164,9 @@ Like Article, but adds:
 
 -Kivy
 
+
+# Custom Widget requires:
+
 - Widget declarations
 - Resizing rules
 - State logic (undo/redo, revisions)
