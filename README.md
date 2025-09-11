@@ -164,9 +164,6 @@ Like Article, but adds:
 
 -Kivy
 
-## Custom
-User-defined element. Requires:
-
 - Widget declarations
 - Resizing rules
 - State logic (undo/redo, revisions)
